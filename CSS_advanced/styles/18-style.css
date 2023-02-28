@@ -126,10 +126,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: var(--nav-item-margin);
 }
 .nav .nav-link {
-    
+
     display: block;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     padding-right: 100%;
     padding-left: 100%;
+}
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover)
 }
