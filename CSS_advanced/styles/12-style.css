@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
-    color: var(--section-title-color);
+    color: var(--color-black);
 }
 .section-tagline {
     color: var(--color-primary);
