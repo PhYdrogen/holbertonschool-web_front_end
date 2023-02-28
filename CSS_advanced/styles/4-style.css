@@ -13,14 +13,14 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font: var(--font-family-base);
+    font-family:var(--font-family-base);
     color:var(--text-color);
 }
 a {
     color:var(--text-color);
 }
 h1, h2, h3, h4, h5, h6 {
-    font: var(--font-family-title);
+    font-family:var(--font-family-title);
 }
 .visually-hidden {
     display: none;
