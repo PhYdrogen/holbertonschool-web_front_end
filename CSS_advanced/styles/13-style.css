@@ -41,7 +41,7 @@ a:visited {
     font-style:italic;
 }
 a:hover {
-    text-underline-position: under;
+    text-decoration: underline;
 }
 a:active {
     background-color: var(--color-light-grey);
