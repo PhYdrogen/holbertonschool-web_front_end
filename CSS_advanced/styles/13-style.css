@@ -41,10 +41,10 @@ a:visited {
     font-style:italic;
 }
 a:hover {
-    text-underline-position: auto;
+    text-underline-position: under;
 }
 a:active {
-    color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
