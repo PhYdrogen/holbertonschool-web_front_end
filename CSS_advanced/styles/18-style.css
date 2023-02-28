@@ -128,10 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav .nav-link {
 
     display: block;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 0.5rem 1rem;
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover)
