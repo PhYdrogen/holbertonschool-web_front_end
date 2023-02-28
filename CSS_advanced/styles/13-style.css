@@ -34,8 +34,17 @@ body {
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
-a {
+a:link {
     text-decoration: none;
+}
+a:visited {
+    font-style:italic;
+}
+a:hover {
+    text-underline-position: auto;
+}
+a:active {
+    color: var(--color-light-grey);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
