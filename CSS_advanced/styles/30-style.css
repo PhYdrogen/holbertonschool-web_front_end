@@ -303,3 +303,11 @@ ul.row {
     text-decoration: none;
     padding-top: 45%;
 }
+.card-title a::after, .card-work a::after {
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
+}
