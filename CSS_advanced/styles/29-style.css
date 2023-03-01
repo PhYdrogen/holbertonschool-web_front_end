@@ -267,3 +267,6 @@ nav .nav-link::before {
     width: 0;
     height: 0.2rem;
 }
+nav .nav-item:hover .nav-link::before {
+    
+}
