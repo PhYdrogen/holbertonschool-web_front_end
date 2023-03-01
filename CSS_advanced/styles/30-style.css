@@ -298,3 +298,8 @@ ul.row {
     height: 100%;
     position: relative;
 }
+.card-title a , .card-work a {
+    display: block;
+    text-decoration: none;
+    padding-top: 45%;
+}
