@@ -328,3 +328,9 @@ ul.row {
     font-size: 10rem;
     z-index: -1;
 }
+.card-work:hover .card-image {
+    transform: scale(1.2);
+}
+.card-work:hover .card-outer {
+    transform: scale(0.95);
+}
