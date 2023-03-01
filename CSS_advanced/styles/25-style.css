@@ -37,7 +37,7 @@
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
-    
+
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
@@ -75,6 +75,20 @@ a:hover {
 a:active {
     background-color: var(--color-light-grey);
 }
+.button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    font-size: var(--button-font-size);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+}
+.button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background-color: var(--button-hover-background);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
@@ -178,6 +192,7 @@ ul.row {
     --text-color: var(--color-white);
     --section-title-color:var(--color-white);
     background-color: var(--color-black);
+    --button-color: var(--color-white);
 }
 .footer-address {
     color: var(--text-color);
