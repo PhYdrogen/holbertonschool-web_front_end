@@ -163,7 +163,7 @@ ul.row {
     display: table;
     clear: both;
 }
-[class^a="col-"] {
+[class^="col-"] {
     float: left;
     padding: 0.5rem;
 }
