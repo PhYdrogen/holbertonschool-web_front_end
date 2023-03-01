@@ -259,5 +259,11 @@ ul.row {
     left: var(--header-logo-link-left);
 }
 nav .nav-link::before {
-    
+    content: "empty";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 0.2rem;
 }
