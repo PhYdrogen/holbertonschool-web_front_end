@@ -1,12 +1,12 @@
 /* My style */
-@use "10-colors" as color;
+@import "10-colors";
 
 .red {
-    color: color.$red;
+    color: $red;
 }
 .green {
-    color: color.$green;
+    color: $green;
 }
 .blue {
-    color: color.$blue;
+    color: $blue;
 }
