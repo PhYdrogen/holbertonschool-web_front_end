@@ -1,0 +1,11 @@
+/* My style */
+@mixin m-x($val) {
+    margin-left: $val;
+    margin-right: $val;
+}
+body {
+    @include m-x(10px);
+}
+div {
+    @include m-x(15px);
+}

@@ -1,0 +1,12 @@
+/* My style */
+@use "10-colors" as color;
+
+.red {
+    color: color.$red;
+}
+.green {
+    color: color.$green;
+}
+.blue {
+    color: color.$blue;
+}
