@@ -7,3 +7,7 @@
 - [Understanding the difference between mobile-first, adaptive and responsive design](https://fredericgonzalo.com/en/understanding-the-difference-between-mobile-first-adaptive-and-responsive-design/)
 - [LukeW | Mobile First](https://www.lukew.com/ff/entry.asp?933)
 - [Responsive Design Newsletter](https://bytes.dev/)
+
+## Used site
+
+[Responsive breakpoints](https://www.responsivebreakpoints.com)
