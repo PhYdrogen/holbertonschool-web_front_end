@@ -655,8 +655,14 @@
     z-index: 1;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
+  .card-work .card-title a {
+    opacity: 0;
+  }
   
-  .card-work:hover .card-inner {
+  .card-work .card-title a:focus,
+  .card-work:hover .card-title a {
+    opacity: 1;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
   }
   
@@ -702,16 +708,6 @@
       padding: 2rem 1rem 0 1rem;
     }
 
-    .card-work .card-title a {
-      opacity: 0;
-    }
-    
-    .card-work .card-title a:focus,
-    .card-work:hover .card-title a {
-      opacity: 1;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.7);
-    }
   }
   
   /* Card SERVICES
