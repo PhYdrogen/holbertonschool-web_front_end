@@ -1,5 +1,9 @@
 let globalVariable = "Welcome"
 
+/**
+ * A 2 deep level nesting function, the goal is to demonstrate how
+ * to do it
+ */
 function outer() {
     alert(globalVariable);
     let course = "Holberton";
