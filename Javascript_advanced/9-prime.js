@@ -1,4 +1,3 @@
-
 function countPrimeNumbers() {
     now = performance.now()
     let arr = [];
