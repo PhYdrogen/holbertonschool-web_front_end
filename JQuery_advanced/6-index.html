@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <script type="application/javascript" src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <title>Task 6</title>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<script>
+    function createFamilyTree() {
+        $("body").append($("<table></table>").append([
+            $("<thead></thead>").append($("<tr></tr>").append([$("<th></th>").text("Firstname"), $("<th></th>").text("Lastname")])),
+            $("<tbody></tbody>")
+        ]));
+    }
+    function addNewMember(firstName, lastName, position) {
+        if (position === "before") {
+            $("tbody").prepend($("<tr></tr>").append([
+                $("<td></td>").text(firstName),
+                $("<td></td>").text(lastName), $("<td></td>").text("(x)").css("background-color", "orange").click(() => $('tr').remove(`:contains('${firstName}')`))
+            ]));
+        } else {
+            $("tbody").append($("<tr></tr>").append([
+                $("<td></td>").text(firstName),
+                $("<td></td>").text(lastName), $("<td></td>").text("(x)").css("background-color", "orange").click(() => $('tr').remove(`:contains('${firstName}')`))
+            ]));
+        }
+    }
+    function createForm() {
+        $("body").prepend($('<input type="submit" />').click(() => addNewMember($("#firstname").val(), $("#lastname").val())))
+        $("body").prepend('<input id="firstname" type="text" /><input id="lastname" type="text" /><select id="select"> <option value="before">Before</option><option value="after">After</option></select>')
+    }
+
+    createFamilyTree();
+    createForm();
+</script>

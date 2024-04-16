@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Dune",
+      "author": "Denis Villeneuve"
+    },
+    {
+      "id": "2",
+      "title": "Spider-Man: No Way Home",
+      "author": "Jon Watts"
+    },
+    {
+      "id": "3",
+      "title": "The Power of the Dog",
+      "author": "Jane Campion"
+    },
+    {
+      "id": "4",
+      "title": "No Time to Die",
+      "author": "Cary Joji Fukunaga"
+    },
+    {
+      "id": "5",
+      "title": "Drive My Car",
+      "author": "Ryusuke Hamaguchi"
+    },
+    {
+      "id": "6",
+      "title": "The French Dispatch",
+      "author": "Wes Anderson"
+    },
+    {
+      "id": "7",
+      "title": "Licorice Pizza",
+      "author": "Paul Thomas Anderson"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
